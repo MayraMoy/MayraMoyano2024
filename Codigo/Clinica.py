@@ -37,8 +37,8 @@ class Pacientes:
 
 class Preinscripcion:
     def __init__(self, id_de_prescripcion: int, diagnostico: str, nombre_de_medicina: str, potencia_medicamento: int, 
-                 frecuencia_medicamento: int, observaciones: str, prueba_laboratorio: str, laboratorio_de_instrucciones: str, 
-                 preinscripcion_entregar: str, solicitudes_de_laboratorio_realizadas: str, monto_de_la_factura: float):
+                frecuencia_medicamento: int, observaciones: str, prueba_laboratorio: str, laboratorio_de_instrucciones: str, 
+                preinscripcion_entregar: str, solicitudes_de_laboratorio_realizadas: str, monto_de_la_factura: float):
         self.id_de_prescripcion = id_de_prescripcion
         self.diagnostico = diagnostico
         self.nombre_de_medicina = nombre_de_medicina
