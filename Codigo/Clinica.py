@@ -49,3 +49,81 @@ class Preinscripcion:
         self.laboratorio_de_instrucciones = laboratorio_de_instrucciones
         self.preinscripcion_entregar = preinscripcion_entregar
         self.solicitudes_de_l
+
+class Doctor:
+    def __init__(self, id: str, nombre: str, edad: int, genero: str, calificacion: str, experiencia: str, numeroRegistro: str):
+        self.id = id
+        self.nombre = nombre
+        self.edad = edad
+        self.genero = genero
+        self.calificacion = calificacion
+        self.experiencia = experiencia
+        self.numeroRegistro = numeroRegistro
+        
+    def añadirMedico(self):
+        pass
+        
+    def editarDoctor(self):
+        pass
+        
+    def eliminarMedico(self):
+        pass
+        
+    def proporcionarConsulta(self):
+        pass
+
+class Especialista:
+    def __init__(self, ssd: str, nombre: str, descripcion: str):
+        self.ssd = ssd
+        self.nombre = nombre
+        self.descripcion = descripcion
+        
+    def agregarEspecialista(self):
+        pass
+        
+    def editarEspecialista(self):
+        pass
+        
+    def eliminarEspecialista(self):
+        pass
+
+class Laboratorio:
+    def __init__(self, id: str, nombre: str, direccion: str, email: str, telefono: str):
+        self.id = id
+        self.nombre = nombre
+        self.direccion = direccion
+        self.email = email
+        self.telefono = telefono
+        
+    def añadirLaboratorio(self):
+        pass
+        
+    def editarLaboratorio(self):
+        pass
+        
+    def terminarLaboratorio(self):
+        pass
+        
+    def realizarMuestras(self):
+        pass
+        
+    def generarInforme(self):
+        pass
+
+class Quimico():
+    def __init__(self, id: str, nombre: str, direccion: str, email: str, telefono: str)
+        self.id = id
+        self.nombre = nombre
+        self.direccion = direccion
+        self.email = email
+        self.telefono = telefono
+        
+    def añadirQuimico(self):
+        pass
+        
+    def editarQuimico(self):
+        pass
+        
+    def entregaDeMedicamentos(self):
+        pass
+        
